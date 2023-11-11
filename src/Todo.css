@@ -1,0 +1,59 @@
+H1{
+  background-color: black;
+  color: red;
+  width: 1vh;
+  height: 1vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(41, 172, 63);
+  width: 99vw;
+  height: 99vh;
+  overflow: auto;
+}
+
+.input {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction:column;
+  vertical-align: text-top;
+}
+
+.button {
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  color: aqua;
+}
+
+.select {
+  margin: 10px;
+  padding: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center; 
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+}
